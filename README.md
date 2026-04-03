@@ -1,16 +1,51 @@
-# React + Vite
+# 🛒 PriceTracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web para el seguimiento de precios de productos en supermercados.
 
-Currently, two official plugins are available:
+Permite agregar, editar, eliminar productos y visualizar cambios de precios de forma simple y clara.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+👉  price-tracker-zeta-seven.vercel.app
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Vista previa
+
+---<img width="1326" height="580" alt="Captura de pantalla 2026-04-03 111007" src="https://github.com/user-attachments/assets/e443653d-a123-43f1-8517-d644d14a6d31" />
+
+
+## ✨ Funcionalidades
+
+- ➕ Agregar productos
+- ✏️ Editar productos en línea
+- ❌ Eliminar con confirmación (modal)
+- 📊 Seguimiento de cambios de precios
+- 🔍 Filtros por supermercado
+- 📄 Paginación de productos
+- 💾 Persistencia con localStorage
+- 🎨 UI moderna con Tailwind
+
+---
+
+## 🛠️ Tecnologías
+
+- React
+- Tailwind CSS
+- React Router
+- JavaScript
+
+---
+
+
+---
+
+## ⚙️ Instalación
+
+```bash
+git clone https://github.com/TU-USUARIO/price-tracker.git
+cd price-tracker
+npm install
+npm run dev

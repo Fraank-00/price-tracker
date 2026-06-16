@@ -33,7 +33,7 @@ function Dashboard({ products, alerts, addProduct }) {
         </h2>
 
         {/* Stats */}
-        <div className="grid grid-cols-4 gap-6 mt-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-6">
 
           <StatCard
             title="Productos rastreados"
@@ -79,7 +79,7 @@ function Dashboard({ products, alerts, addProduct }) {
             placeholder="Buscar producto..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="px-4 py-2 border rounded-lg w-64"
+            className="px-4 py-2 border rounded-lg w-full md:w-64"
           />
 
         </div>

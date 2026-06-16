@@ -3,13 +3,13 @@ import { FaHome, FaBox, FaBell } from "react-icons/fa";
 
 function Sidebar() {
   return (
-    <div className="w-64 h-screen bg-white border-r flex flex-col p-6">
+    <div className="w-full md:w-64 bg-white border-r flex flex-col p-6">
 
       <h1 className="text-2xl font-bold text-blue-600 mb-10">
         PriceTracker
       </h1>
 
-      <nav className="flex flex-col gap-3">
+      <nav className="flex flex-row md:flex-col gap-3">
 
         <NavLink
           to="/"

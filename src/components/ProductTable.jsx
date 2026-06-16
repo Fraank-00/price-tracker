@@ -27,7 +27,7 @@ function ProductTable({ products, deleteProduct, updateProduct }) {
         Lista de Productos
       </h3>
       <div className="overflow-x-auto">
-        <table className="w-full border-separate border-spacing-y-2">
+        <table className="min-w-[700px] border-separate border-spacing-y-2">
 
           <thead>
             <tr className="text-left text-gray-500 text-sm">
@@ -131,7 +131,7 @@ function ProductTable({ products, deleteProduct, updateProduct }) {
                 </td>
 
                 {/* Acciones */}
-                <td className="p-3 space-x-2">
+                <td className="p-3 whitespace-nowrap">
 
                   {editingId === product.id ? (
                     <>
@@ -140,7 +140,7 @@ function ProductTable({ products, deleteProduct, updateProduct }) {
                           updateProduct(productoEditado);
                           setEditingId(null);
                         }}
-                        className="px-3 py-1 text-sm bg-green-500 text-white rounded-lg hover:bg-green-600 transition"
+                        className="px-2s py-1 text-sm bg-green-500 text-white rounded-lg hover:bg-green-600 transition"
                       >
                         Guardar
                       </button>
